@@ -1,5 +1,7 @@
 body{
     font-size: large;
+    background: linear-gradient(skyblue, rgb(182, 226, 230));
+    background-repeat: no-repeat;
 }
 .menu{
     width:125px; height:125px;
