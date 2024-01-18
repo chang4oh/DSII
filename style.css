@@ -1,16 +1,27 @@
+h1{
+
+}
 body{
     font-size: large;
-    background: linear-gradient(skyblue, rgb(182, 226, 230));
+    background-color: #86B6F6;
     background-repeat: no-repeat;
 }
 .menu{
-    width:125px; height:125px;
+    width:200px; height:200px;
+    border-radius: 16%;
 }
 .box{
-    display: flex; 
+    border-style:solid;
     border-radius: 15px;
+    background-color: #EEF5FF;
+    border-color: #86B6F6;
+    display: flex; 
     padding: 15px;
+
 }
 .menu{
+    padding: 15px;
+}
+.container{
     padding: 15px;
 }
