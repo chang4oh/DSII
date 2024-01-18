@@ -6,3 +6,11 @@ body{
 .menu{
     width:125px; height:125px;
 }
+.box{
+    display: flex; 
+    border-radius: 15px;
+    padding: 15px;
+}
+.menu{
+    padding: 15px;
+}
