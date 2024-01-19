@@ -3,11 +3,8 @@ body{
     background-color: #86B6F6;
     background-repeat: no-repeat;
 }
-.menu{
-    width:200px; height:200px;
-    border-radius: 16%;
-}
 .box{
+    max-width: 800px;
     border-style:solid;
     border-radius: 15px;
     background-color: #EEF5FF;
@@ -16,35 +13,21 @@ body{
     padding: 15px;
 }
 .menu{
+    width:200px; height:200px;
+    border-radius: 16%;
     padding: 15px;
 }
 .container{
     padding: 15px;
 }
 
-/* code that is here, until the first @media block, will apply to any screen size */
-#somethingorother {
-    width: 800px ;
-}
-  
 @media screen and (max-width: 600px) {
+    /* block so to vertically align */
     .box {display: block;}
-}
-@media screen and (max-width: 320px) {
-    /* comes into effect for screens less than or equal to 320 pixels */
-    #somethingorother {
-    width: 120px ;
+    /* Allows to adjust image to center */
+    .menu {
+        margin: auto;
+        display: block;
     }
-}
-@media screen and (min-width: 321px) and (max-width: 480px) {
-    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-    #somethingorother {
-      width: 320px ;
-    }
-}
-@media screen and (min-width: 481px) {
-    /* comes into effect for screens larger than or equal to 481 pixels */
-    #somethingorother {
-      width: 480px ;
-    }
+
 }
