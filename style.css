@@ -17,17 +17,17 @@ body{
     border-radius: 16%;
     padding: 15px;
 }
+
 .container{
     padding: 15px;
 }
 
 @media screen and (max-width: 600px) {
-    /* block so to vertically align */
+    /* block so to vertically */
     .box {display: block;}
     /* Allows to adjust image to center */
     .menu {
         margin: auto;
         display: block;
     }
-
 }
