@@ -10,7 +10,7 @@ body{
 .box{
     max-width: 800px;
     border-style:solid;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: #EEF5FF;
     border-color: #86B6F6;
     display: flex;  /* side by side text to image */
