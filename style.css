@@ -1,3 +1,6 @@
+*{
+    font-family: "Times New Roman", serif;
+}
 body{
     font-size: large;
     background-color: #86B6F6;
@@ -11,6 +14,9 @@ body{
     border-color: #86B6F6;
     display: flex; 
     padding: 15px;
+    align-items: center; /* Center vertically */
+    min-height: 30vh; /* Full viewport height */
+
 }
 .menu{
     width:200px; height:200px;
