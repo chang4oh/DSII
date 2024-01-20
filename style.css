@@ -24,12 +24,17 @@ body{
     border-radius: 16%;
     padding: 15px;
 }
+.menu:hover{
+    opacity: 0.8;
+}
 .container{
     padding: 15px;
     display: flex; /* Use Flexbox */
     flex-direction: column; /* Align children vertically */
     align-items: center; /* Center children horizontally */
 }
+
+
 
 @media screen and (max-width: 600px) {
     /* block so to vertically */
