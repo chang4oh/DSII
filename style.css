@@ -6,7 +6,6 @@ body{
     font-size: large;
     background-color: #86B6F6;
     background-repeat: no-repeat;
-    
 }
 .box{
     max-width: 800px;
@@ -14,7 +13,7 @@ body{
     border-radius: 15px;
     background-color: #EEF5FF;
     border-color: #86B6F6;
-    display: flex; 
+    display: flex;  /* side by side text to image */
     padding: 15px;
     align-items: center; /* Center vertically */
     min-height: 30vh; /* Full viewport height */
@@ -25,9 +24,11 @@ body{
     border-radius: 16%;
     padding: 15px;
 }
-
 .container{
     padding: 15px;
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center children horizontally */
 }
 
 @media screen and (max-width: 600px) {
