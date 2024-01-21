@@ -42,7 +42,8 @@ body{
     align-items: center; /* Center vertically */
     min-height: 20vh; /* Full viewport height */
     margin-bottom: 10px;
-
+    box-shadow: 1px 2px 2px 2px #176B87; 
+    
 }
 .menu{
     width:200px; height:200px;
