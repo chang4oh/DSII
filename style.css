@@ -24,11 +24,14 @@ body{
     border-radius: 30px;
     background-color: #EEF5FF;
     border-color: #86B6F6;
+    border-left: 15px solid #86B6F6;
+
     display: flex;  /* side by side text to image */
     padding: 15px;
     align-items: center; /* Center vertically */
     min-height: 20vh; /* Full viewport height */
     margin-bottom: 10px;
+
 }
 .menu{
     width:200px; height:200px;
