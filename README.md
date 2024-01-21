@@ -1,7 +1,4 @@
-﻿# My Personal Website
-# Featuring projects on html,css,js, and many more
-# Links to directly preview html
-# Order: picture, title, dates, programs, and description
-# Feedbacks are welcome and encouraged.
-# Happy viewing!
-
+﻿# DSII Designs, Sketches, Ideas, and Innovations
+    This is my personal website with constant updates based on my learning.
+    I will show case my projects here and will have clickable link that shows the project in live server.
+    Link: https://chang4oh.github.io/DSII/
