@@ -16,10 +16,10 @@ body{
 }
 .topNav{
     text-align: center; 
-    color:black;
     display: block;
-    background-color: #86B6F6;
+    background-color: #f3e69a;
     border: 2px solid #176B87;
+    padding: 15px;
 }
 .container{
     padding: 15px;
