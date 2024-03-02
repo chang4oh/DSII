@@ -98,6 +98,12 @@ body{
 }
 
 @media screen and (max-width: 600px) {
+    .nav-links a {
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        padding: 12px;
+      }
     /* block so to vertically */
     .box {display: block;}
     /* Allows to adjust image to center */
